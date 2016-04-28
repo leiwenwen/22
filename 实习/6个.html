@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-1.8.2.js"></script>
+    <script>
+$(function(){
+    $(".d2").animate({left:"210px",top:"10px"},2000)
+//    $(".d2").animate({opacity:(0)})
+//    $(".d2").animate({left:"600px",top:"10px"},2000)
+//    $(".d2").animate({opacity:(1)},1000)
+    $(".d3").animate({left:"410px",top:"10px"},2000)
+//    $(this).animate({opacity:(0)},2000)
+    $(".d5").animate({left:"210px",top:"200px"},2000)
+//    $(this).animate({opacity:(0)},2000)
+    $(".d6").animate({left:"410px",top:"200px"},2000)
+//    $(this).animate({opacity:(0)},2000)
+});
+$(".d7").click (function (){
+            $(".d7").animate({top:"210px"},1000)
+});
+    </script>
+    <style>
+        .d1,.d2,.d3{
+            position: absolute;
+            top:10px;
+            left:10px;
+        }
+
+        .d4,.d5,.d6{
+            position: absolute;
+            top:200px;
+            left:10px;
+        }
+        .d1{
+            background-image: url("../img/q1.jpg");
+            width: 200px;
+            height: 200px;
+        }
+        .d2{
+            background-image: url("../img/q2.jpg");
+            width: 200px;
+            height: 200px;
+        }
+        .d3{
+            background-image: url("../img/m1.jpg");
+            width: 200px;
+            height: 200px;
+        }
+        .d4{
+            background-image: url("../img/m2.jpg");
+            width: 200px;
+            height: 200px;
+        }
+        .d5{
+            background-image: url("../img/get.jpg");
+            width: 200px;
+            height: 200px;
+        }
+        .d6{
+            background-image: url("../img/q3.jpg");
+            width: 200px;
+            height: 200px;
+        }
+        .d7{
+            background-image: url("img/s.PNG");
+            width:50px;
+            height:420px;
+            position: absolute;
+            top:10px;
+            left:800px;
+        }
+    </style>
+</head>
+<body>
+<div class="d1"></div>
+<div class="d2"></div>
+<div class="d3"></div>
+<div class="d4"></div>
+<div class="d5"></div>
+<div class="d6"></div>
+<div class="d7"></div>
+</body>
+</html>
